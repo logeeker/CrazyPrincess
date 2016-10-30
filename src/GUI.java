@@ -95,14 +95,16 @@ public class GUI extends Application{
             histogram.getChildren().add(zero);
 
 
+
+
             double one = 180.0/recentTenMax;
 
             for (int i=0;i<9;i++){
                 Line line = new Line();
                 line.setStartX((i+1)*18+xx);
-                line.setStartY(yy+200-hist.get(i)*one);
+                line.setStartY(yy+200-recentTen.get(i)*one);
                 line.setEndX((i+2)*18+xx);
-                line.setEndY(yy+200-hist.get(i+1)*one);
+                line.setEndY(yy+200-recentTen.get(i+1)*one);
                 histogram.getChildren().add(line);
             }
 
