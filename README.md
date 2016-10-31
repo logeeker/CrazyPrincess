@@ -1,6 +1,6 @@
 # CrazyPrincess
 
-**To play this game, please download and run Crazy Princess.jar.**
+**To play this game, please download and run Crazy Princess 1.0.jar**
 https://github.com/logeeker/CrazyPrincess/blob/master/Crazy%20Princess%201.0.jar
 
 **This is a game inspired by Legend of Merchant.**
